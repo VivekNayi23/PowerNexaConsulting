@@ -3,121 +3,234 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="PowerNexa Consulting provides IT solutions, Microsoft Power Platform, SharePoint, Business Central, Dynamics 365, web development, automation, and AI consulting services." />
   <title>PowerNexa Consulting | IT Solutions & Freelance Excellence</title>
-  <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <header class="header">
-    <nav class="navbar">
-      <a href="#home" class="brand"><img src="assets/logo.png" alt="PowerNexa Consulting Logo"></a>
-      <button class="menu-btn" id="menuBtn">☰</button>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact" class="nav-cta">Contact</a></li>
-      </ul>
+  <header class="site-header" id="top">
+    <nav class="navbar container">
+      <a class="brand" href="#top" aria-label="PowerNexa Consulting Home">
+        <img src="assets/images/powernexa-logo.png" alt="PowerNexa Consulting Logo" />
+      </a>
+      <button class="menu-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#technology">Technology</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact" class="nav-cta">Contact Us</a>
+      </div>
     </nav>
   </header>
 
   <main>
-    <section class="hero" id="home">
-      <div class="hero-content">
-        <span class="badge">Microsoft • Automation • IT Consulting</span>
-        <h1>Smart IT solutions for businesses ready to grow.</h1>
-        <p>PowerNexa Consulting helps companies build modern digital solutions using Power Platform, SharePoint, Business Central, AI, automation, and custom web applications.</p>
-        <div class="hero-actions">
-          <a href="#contact" class="btn primary">Start a Project</a>
-          <a href="#services" class="btn secondary">Explore Services</a>
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">IT Solutions • Freelance Excellence • Powering Your Next</p>
+          <h1>Empowering businesses with smart IT solutions.</h1>
+          <p class="hero-text">PowerNexa Consulting helps startups and growing businesses automate workflows, modernize systems, and build scalable digital solutions using Microsoft technologies, web platforms, and AI.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Start a Project</a>
+            <a href="#services" class="btn btn-secondary">Explore Services</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>10+</strong><span>Service Areas</span></div>
+            <div><strong>100%</strong><span>Client Focus</span></div>
+            <div><strong>24/7</strong><span>Digital Ready</span></div>
+          </div>
+        </div>
+        <div class="hero-card reveal delay-1">
+          <div class="glass-card">
+            <span class="card-badge">PowerNexa Stack</span>
+            <h3>Microsoft + Web + AI</h3>
+            <p>Power Apps, SharePoint, Business Central, Dynamics 365, Power BI, Azure, APIs, and custom websites.</p>
+            <div class="mini-grid">
+              <span>Power Apps</span><span>SharePoint</span><span>Power BI</span><span>Azure</span><span>Dynamics 365</span><span>AI</span>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="hero-card">
-        <div class="card-top"></div>
-        <h3>Digital Transformation Partner</h3>
-        <p>From process automation to business dashboards, we deliver reliable IT solutions that save time and improve operations.</p>
-        <div class="stats">
-          <div><strong>10+</strong><span>Demo Solutions</span></div>
-          <div><strong>24/7</strong><span>Support Focus</span></div>
-          <div><strong>100%</strong><span>Scalable</span></div>
+    </section>
+
+    <section class="section logos-strip">
+      <div class="container strip-inner">
+        <span>Microsoft 365</span><span>Power Platform</span><span>SharePoint</span><span>Business Central</span><span>Dynamics 365</span><span>AI Automation</span>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Our Services</p>
+          <h2>Complete IT consulting for modern businesses.</h2>
+          <p>From business automation to custom software, we create practical solutions that save time, reduce manual work, and improve business performance.</p>
+        </div>
+        <div class="cards-grid">
+          <article class="service-card reveal"><div class="icon">⚡</div><h3>Power Platform</h3><p>Power Apps, Power Automate, approvals, dashboards, and business process automation.</p></article>
+          <article class="service-card reveal"><div class="icon">🌐</div><h3>SharePoint Solutions</h3><p>Intranet portals, document libraries, SPFx web parts, permissions, and workflow systems.</p></article>
+          <article class="service-card reveal"><div class="icon">📊</div><h3>Power BI</h3><p>Interactive reports, executive dashboards, KPIs, data modeling, and business insights.</p></article>
+          <article class="service-card reveal"><div class="icon">🏢</div><h3>Business Central</h3><p>Implementation, migration, AL customization, APIs, integrations, and support.</p></article>
+          <article class="service-card reveal"><div class="icon">💻</div><h3>Web Development</h3><p>Professional websites, landing pages, business portals, APIs, and responsive UI.</p></article>
+          <article class="service-card reveal"><div class="icon">🤖</div><h3>AI Solutions</h3><p>AI chatbots, document intelligence, OpenAI integrations, and smart business assistants.</p></article>
         </div>
       </div>
     </section>
 
-    <section class="services" id="services">
-      <div class="section-head">
-        <span>Our Services</span>
-        <h2>Technology services built for real business problems.</h2>
-      </div>
-      <div class="grid">
-        <div class="service-card"><div class="icon">⚡</div><h3>Power Platform</h3><p>Power Apps, Power Automate, Power BI dashboards, Dataverse, and approval systems.</p></div>
-        <div class="service-card"><div class="icon">☁️</div><h3>SharePoint & M365</h3><p>Intranets, document management, SPFx web parts, permissions, and migration support.</p></div>
-        <div class="service-card"><div class="icon">📊</div><h3>Business Central</h3><p>Configuration packages, report customization, data migration, and ERP support.</p></div>
-        <div class="service-card"><div class="icon">🤖</div><h3>AI & Automation</h3><p>AI assistants, chatbots, document intelligence, workflow automation, and API integrations.</p></div>
-        <div class="service-card"><div class="icon">💻</div><h3>Web Development</h3><p>Responsive websites, portals, ASP.NET, JavaScript apps, SQL, and REST API solutions.</p></div>
-        <div class="service-card"><div class="icon">🛠️</div><h3>Freelance Support</h3><p>Project-based development, monthly support, bug fixing, training, and consulting.</p></div>
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="about-box">
-        <span>About PowerNexa</span>
-        <h2>We connect business needs with powerful technology.</h2>
-        <p>PowerNexa Consulting is an IT consulting and freelancing company focused on Microsoft technologies, automation, and custom digital solutions. Our goal is simple: make business processes faster, smarter, and easier to manage.</p>
-      </div>
-      <div class="why-box">
-        <h3>Why choose us?</h3>
-        <ul>
-          <li>Modern and scalable solution design</li>
-          <li>Strong Microsoft technology expertise</li>
-          <li>Clear communication and fast delivery</li>
-          <li>Practical support after project completion</li>
-        </ul>
+    <section class="section split-section" id="about">
+      <div class="container split-grid">
+        <div class="reveal">
+          <p class="eyebrow">About PowerNexa</p>
+          <h2>Built for businesses that want faster, smarter digital operations.</h2>
+          <p>PowerNexa Consulting is an IT consulting and freelancing company focused on Microsoft business solutions, automation, cloud technologies, and modern web development.</p>
+          <p>We help businesses turn manual processes into efficient digital systems with clean design, secure architecture, and practical implementation.</p>
+        </div>
+        <div class="why-box reveal delay-1">
+          <h3>Why Choose Us?</h3>
+          <ul>
+            <li>Microsoft technology expertise</li>
+            <li>Custom solutions for real business needs</li>
+            <li>Fast delivery with clean communication</li>
+            <li>Scalable design for future growth</li>
+            <li>Ongoing support and improvement</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section class="work" id="work">
-      <div class="section-head">
-        <span>Demo Projects</span>
-        <h2>Solutions we can build for clients.</h2>
-      </div>
-      <div class="work-list">
-        <article><h3>Leave Management System</h3><p>Power Apps + SharePoint + Power Automate approval flow.</p></article>
-        <article><h3>Business Dashboard</h3><p>Power BI dashboard with KPIs, filters, and executive reporting.</p></article>
-        <article><h3>Vendor Portal</h3><p>Secure portal for vendor onboarding, documents, and approvals.</p></article>
+    <section class="section" id="technology">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Technology Stack</p>
+          <h2>Tools and platforms we work with.</h2>
+        </div>
+        <div class="tech-grid reveal">
+          <span>Power Apps</span><span>Power Automate</span><span>Power BI</span><span>SharePoint</span><span>SPFx</span><span>Business Central</span><span>Dynamics 365</span><span>Azure</span><span>SQL Server</span><span>.NET</span><span>JavaScript</span><span>AI / OpenAI</span>
+        </div>
       </div>
     </section>
 
-    <section class="contact" id="contact">
-      <div>
-        <span>Contact Us</span>
-        <h2>Have an idea? Let’s build it.</h2>
-        <p>Share your project requirement and PowerNexa Consulting will help you plan, design, and deliver the right solution.</p>
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Featured Projects</p>
+          <h2>Confidential client work and solution demos.</h2>
+          <p>Selected Microsoft technology projects delivered across SharePoint, Power Platform, Dynamics 365, Business Central, automation, and enterprise portals.</p>
+        </div>
+        <div class="portfolio-grid project-showcase">
+          <article class="project-card reveal">
+            <span class="project-role">Senior SharePoint Architect</span>
+            <h3>Modernized Enterprise Intranet Portal</h3>
+            <p>Rebuilt a legacy SharePoint intranet with SPFx and React, including announcements, employee directory, quick links, and department dashboards.</p>
+            <div class="project-tags"><span>SPFx</span><span>React</span><span>Graph API</span></div>
+            <p class="project-impact">Impact: Improved page performance by 45% and increased employee adoption.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-role">Senior SharePoint Architect</span>
+            <h3>Self-Service HR & IT Hub</h3>
+            <p>Created a unified SharePoint hub for HR and IT requests, ticket tracking, policy access, and role-based content visibility.</p>
+            <div class="project-tags"><span>SharePoint</span><span>SPFx</span><span>ServiceNow</span></div>
+            <p class="project-impact">Impact: Reduced support queries by 35% with secure role-based access.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-role">Power Platform Developer</span>
+            <h3>AI-Powered Document Automation Suite</h3>
+            <p>Automated invoice, form, and contract processing using AI Builder, Power Automate, Azure OpenAI, and Cognitive Services.</p>
+            <div class="project-tags"><span>Power Automate</span><span>AI Builder</span><span>Azure OpenAI</span></div>
+            <p class="project-impact">Impact: Accelerated document processing by 50%+ and improved auditability.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-role">Senior SharePoint Architect</span>
+            <h3>Custom SPFx Business Process Automation</h3>
+            <p>Built custom React-based SPFx web parts for approval tracking, project boards, and document request workflows.</p>
+            <div class="project-tags"><span>SPFx</span><span>PnP JS</span><span>Power Automate</span></div>
+            <p class="project-impact">Impact: Removed dependency on third-party workflow tools.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-role">Senior SharePoint Architect</span>
+            <h3>Enterprise Collaboration Portal Rollouts</h3>
+            <p>Delivered SharePoint Online collaboration portals for enterprise clients in healthcare, education, and manufacturing.</p>
+            <div class="project-tags"><span>SharePoint Online</span><span>Workflows</span><span>Microsoft 365</span></div>
+            <p class="project-impact">Impact: Reduced manual content management effort by 40%.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-role">Senior SharePoint Architect</span>
+            <h3>SharePoint, Teams & OneDrive Migrations</h3>
+            <p>Managed enterprise content migrations into SharePoint, Microsoft Teams, and OneDrive while preserving permissions and history.</p>
+            <div class="project-tags"><span>SharePoint</span><span>Teams</span><span>OneDrive</span></div>
+            <p class="project-impact">Impact: Delivered full data and permissions integrity on schedule.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-role">Dynamics 365 Senior Developer</span>
+            <h3>Healthcare Scheduling & Engagement Platform</h3>
+            <p>Built Dynamics 365 CRM solutions for appointment scheduling, member engagement, events, SSRS reporting, and integrations.</p>
+            <div class="project-tags"><span>Dynamics 365</span><span>C#</span><span>SSRS</span></div>
+            <p class="project-impact">Impact: Reduced manual reporting time by 30% for large-scale users.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-role">Senior SharePoint Architect</span>
+            <h3>Reusable SharePoint & Dynamics BC Framework</h3>
+            <p>Designed a reusable framework connecting SharePoint and Dynamics Business Central for faster client project onboarding.</p>
+            <div class="project-tags"><span>AL</span><span>Angular JS</span><span>Business Central</span></div>
+            <p class="project-impact">Impact: Improved consistency and reduced setup time for new projects.</p>
+          </article>
+        </div>
       </div>
-      <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Email Address" required>
-        <select>
-          <option>Select Service</option>
-          <option>Power Platform</option>
-          <option>SharePoint</option>
-          <option>Business Central</option>
-          <option>Web Development</option>
-          <option>AI / Automation</option>
-        </select>
-        <textarea placeholder="Project Details"></textarea>
-        <button type="submit" class="btn primary">Send Inquiry</button>
-      </form>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">Contact Us</p>
+          <h2>Ready to start your next IT project?</h2>
+          <p>Tell us about your requirement. We will help you plan and build a reliable solution.</p>
+          <div class="contact-info">
+            <p><strong>Email:</strong> contact@powernexaconsulting.com</p>
+            <p><strong>Location:</strong> India</p>
+          </div>
+        </div>
+        <form class="contact-form reveal delay-1" onsubmit="return handleFormSubmit(event)">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Email Address" required />
+          <input type="text" name="service" placeholder="Service Required" />
+          <textarea name="message" rows="5" placeholder="Project Details" required></textarea>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <img src="assets/logo.png" alt="PowerNexa Consulting Logo">
-    <p>© 2026 PowerNexa Consulting. IT Solutions. Freelance Excellence. Powering Your Next.</p>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/images/powernexa-logo.png" alt="PowerNexa Consulting Logo" class="footer-logo" />
+        <p>IT Solutions. Freelance Excellence. Powering Your Next.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#services">Services</a><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <a>Power Platform</a><a>SharePoint</a><a>Business Central</a><a>AI Solutions</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© <span id="year"></span> PowerNexa Consulting. All rights reserved.</div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
