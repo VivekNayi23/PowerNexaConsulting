@@ -168,7 +168,7 @@
     window.setTimeout(() => {
       const reply = doc.createElement("div");
       reply.className = "chat-message bot";
-      reply.textContent = "Thanks. This demo chat is not connected to an agent yet. Please use the contact form or email contact@powernexaconsulting.com.";
+      reply.textContent = "Thanks. This demo chat is not connected to an agent yet. Please use the contact form or email inquiry@powernexaconsulting.com.";
       doc.querySelector(".chat-body")?.appendChild(reply);
     }, 500);
   });
@@ -190,6 +190,6 @@ ${data.get("message")}`
     );
     const status = form.querySelector(".form-status");
     if (status) status.textContent = "Opening your email application…";
-    window.location.href = `mailto:contact@powernexaconsulting.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:inquiry@powernexaconsulting.com?subject=${subject}&body=${body}`;
   });
 })();
