@@ -1,0 +1,15 @@
+{
+  "name": "PowerNexa Consulting",
+  "short_name": "PowerNexa",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#061a3a",
+  "theme_color": "#071b3d",
+  "icons": [
+    {
+      "src": "assets/images/powernexa-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
