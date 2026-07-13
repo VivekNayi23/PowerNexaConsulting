@@ -43,3 +43,13 @@ git push origin main
 ```
 
 GitHub Pages will deploy from the configured `main` branch.
+
+
+## Sprint 2
+
+- Seven additional full case studies
+- Case study index with internal links
+- Six detailed industry pages
+- Four detailed technology capability pages
+- Expanded SEO titles, descriptions, schema, and sitemap
+- Stronger internal linking between services, industries, technologies, case studies, and contact

@@ -1,21 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://powernexaconsulting.com/</loc></url>
-  <url><loc>https://powernexaconsulting.com/services.html</loc></url>
-  <url><loc>https://powernexaconsulting.com/projects.html</loc></url>
-  <url><loc>https://powernexaconsulting.com/industries.html</loc></url>
-  <url><loc>https://powernexaconsulting.com/technologies.html</loc></url>
   <url><loc>https://powernexaconsulting.com/blog.html</loc></url>
   <url><loc>https://powernexaconsulting.com/careers.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/case-studies/ai-document-automation.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/case-studies/dynamics-healthcare-platform.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/case-studies/enterprise-collaboration-rollouts.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/case-studies/enterprise-intranet-modernization.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/case-studies/microsoft-365-migrations.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/case-studies/self-service-hr-it-hub.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/case-studies/sharepoint-business-central-framework.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/case-studies/spfx-process-automation.html</loc></url>
   <url><loc>https://powernexaconsulting.com/contact.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/industries.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/industries/education.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/industries/finance-operations.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/industries/healthcare.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/industries/manufacturing.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/industries/professional-services.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/industries/retail.html</loc></url>
   <url><loc>https://powernexaconsulting.com/privacy.html</loc></url>
-  <url><loc>https://powernexaconsulting.com/services/sharepoint-consulting.html</loc></url>
-  <url><loc>https://powernexaconsulting.com/services/power-platform.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/projects.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/services.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/services/ai-automation.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/services/business-central.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/services/dynamics-365.html</loc></url>
   <url><loc>https://powernexaconsulting.com/services/power-apps-development.html</loc></url>
   <url><loc>https://powernexaconsulting.com/services/power-automate.html</loc></url>
-  <url><loc>https://powernexaconsulting.com/services/dynamics-365.html</loc></url>
-  <url><loc>https://powernexaconsulting.com/services/business-central.html</loc></url>
-  <url><loc>https://powernexaconsulting.com/services/ai-automation.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/services/power-platform.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/services/sharepoint-consulting.html</loc></url>
   <url><loc>https://powernexaconsulting.com/services/web-development.html</loc></url>
-  <url><loc>https://powernexaconsulting.com/case-studies/enterprise-intranet-modernization.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/technologies.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/technologies/azure-ai-web.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/technologies/dynamics-business-central.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/technologies/power-platform.html</loc></url>
+  <url><loc>https://powernexaconsulting.com/technologies/sharepoint-microsoft-365.html</loc></url>
 </urlset>

@@ -113,3 +113,31 @@ p{color:var(--muted)}
 .case-section{padding-bottom:45px;margin-bottom:45px;border-bottom:1px solid var(--line)}.check-list{list-style:none;padding:0}.check-list li{padding:9px 0;color:var(--muted)}.check-list li:before{content:"✓";color:var(--blue);margin-right:10px;font-weight:900}
 @media(max-width:980px){.challenge-grid,.industry-grid,.tech-grid{grid-template-columns:repeat(2,1fr)}.process-grid{grid-template-columns:repeat(3,1fr)}.service-hero-grid,.content-split,.case-layout{grid-template-columns:1fr}.sticky-side,.case-nav{position:static}}
 @media(max-width:700px){.challenge-grid,.industry-grid,.tech-grid,.deliverables-grid,.case-kpis{grid-template-columns:1fr}.process-grid{grid-template-columns:repeat(2,1fr)}}
+
+
+/* ---------- Sprint 2: Case studies, industries, technologies ---------- */
+.page-subnav{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.page-subnav a{padding:8px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.07);font-size:.76rem;color:#dbe8f8}
+.case-list-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.case-preview{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:30px;display:flex;flex-direction:column;min-height:360px}
+.case-preview .case-no{color:var(--blue);font-weight:900}
+.case-preview .case-role{font-size:.7rem;text-transform:uppercase;letter-spacing:.11em;color:var(--muted);font-weight:800;margin:18px 0 8px}
+.case-preview p{font-size:.9rem}
+.case-preview .project-tags{margin-top:auto}
+.case-preview>a{margin-top:20px;color:var(--blue);font-weight:800}
+.industry-detail-hero,.technology-detail-hero{padding:calc(var(--header) + 88px) 0 86px;background:linear-gradient(135deg,var(--navy),#0d3972);color:white}
+.industry-detail-hero p,.technology-detail-hero p{color:#bfd0e8}
+.focus-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.focus-card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:24px}
+.focus-card span{display:inline-grid;place-items:center;width:36px;height:36px;border-radius:10px;background:var(--surface-2);color:var(--blue);font-weight:900;margin-bottom:16px}
+.focus-card p{font-size:.87rem;margin-bottom:0}
+.solution-map{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.solution-map article{padding:24px;background:var(--surface);border:1px solid var(--line);border-radius:18px}
+.solution-map ul{margin:14px 0 0;padding-left:18px;color:var(--muted)}
+.tech-capability-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.tech-capability-card{padding:26px;background:var(--surface);border:1px solid var(--line);border-radius:18px}
+.tech-capability-card ul{padding-left:18px;color:var(--muted);font-size:.86rem}
+.related-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.related-links a{padding:9px 12px;border-radius:999px;background:var(--surface-2);color:var(--blue);font-size:.76rem;font-weight:800}
+@media(max-width:980px){.focus-grid,.tech-capability-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:700px){.case-list-grid,.focus-grid,.solution-map,.tech-capability-grid{grid-template-columns:1fr}}
