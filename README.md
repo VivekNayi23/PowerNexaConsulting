@@ -53,3 +53,22 @@ GitHub Pages will deploy from the configured `main` branch.
 - Four detailed technology capability pages
 - Expanded SEO titles, descriptions, schema, and sitemap
 - Stronger internal linking between services, industries, technologies, case studies, and contact
+
+
+## Sprint 3 Final
+- About page
+- Delivery process and engagement models
+- Three SEO-focused insight articles
+- Refined Careers page
+- Enhanced contact lead-generation flow
+- Accessibility skip link and final polish
+- Expanded sitemap and SEO structure
+
+### Publish
+```powershell
+git status
+git add .
+git commit -m "Launch final Sprint 3 website"
+git pull origin main --rebase
+git push origin main
+```
