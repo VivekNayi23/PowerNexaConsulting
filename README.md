@@ -72,3 +72,15 @@ git commit -m "Launch final Sprint 3 website"
 git pull origin main --rebase
 git push origin main
 ```
+
+
+## Version 3 Upgrade
+- Redesigned hero
+- Interactive Microsoft ecosystem
+- Success metrics
+- Solution Finder
+- Automation ROI calculator
+- Resource lead magnets
+- Expandable contact dock
+
+Replace placeholder Calendly and LinkedIn links before publishing.
