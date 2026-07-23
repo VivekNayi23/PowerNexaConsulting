@@ -168,7 +168,7 @@
     window.setTimeout(() => {
       const reply = doc.createElement("div");
       reply.className = "chat-message bot";
-      reply.textContent = "Thanks. This demo chat is not connected to an agent yet. Please use the contact form or email contact@powernexaconsulting.com.";
+      reply.textContent = "Thanks. This demo chat is not connected to an agent yet. Please use the contact form or email inquiry@powernexaconsulting.com.";
       doc.querySelector(".chat-body")?.appendChild(reply);
     }, 500);
   });
@@ -190,18 +190,6 @@ ${data.get("message")}`
     );
     const status = form.querySelector(".form-status");
     if (status) status.textContent = "Opening your email application…";
-    window.location.href = `mailto:contact@powernexaconsulting.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:inquiry@powernexaconsulting.com?subject=${subject}&body=${body}`;
   });
-})();
-
-(() => {
- const d=document;
- const finder=d.querySelector('[data-solution-finder]');
- if(finder){let c='',s='';const map={'manual-processes':['Power Platform Consulting','/services/power-platform.html'],'document-management':['SharePoint Consulting','/services/sharepoint-consulting.html'],'crm':['Dynamics 365 Consulting','/services/dynamics-365.html'],'erp':['Business Central Development','/services/business-central.html'],'reporting':['Data & Analytics','/technologies.html'],'ai':['AI Automation','/services/ai-automation.html']};
- const update=()=>{if(!c||!s)return;const [name,link]=map[c];const r=finder.querySelector('.finder-result');r.innerHTML=`<p class="eyebrow">Recommended starting point</p><h3>${name}</h3><p>For a ${s} organization, begin with a focused discovery workshop and phased roadmap.</p><a href="${link}">Explore service →</a>`;r.classList.add('show')};
- finder.querySelectorAll('[data-challenge]').forEach(b=>b.onclick=()=>{finder.querySelectorAll('[data-challenge]').forEach(x=>x.classList.remove('active'));b.classList.add('active');c=b.dataset.challenge;update()});
- finder.querySelectorAll('[data-size]').forEach(b=>b.onclick=()=>{finder.querySelectorAll('[data-size]').forEach(x=>x.classList.remove('active'));b.classList.add('active');s=b.dataset.size;update()});}
- const roi=d.querySelector('[data-roi]');
- if(roi){const e=roi.querySelector('[data-employees]'),h=roi.querySelector('[data-hours]'),c=roi.querySelector('[data-cost]'),o=roi.querySelector('[data-roi-output]');const calc=()=>{roi.querySelector('[data-employees-value]').textContent=e.value;roi.querySelector('[data-hours-value]').textContent=h.value;roi.querySelector('[data-cost-value]').textContent='$'+c.value;o.textContent=(Number(e.value)*Number(h.value)*Number(c.value)*52*.35).toLocaleString(undefined,{maximumFractionDigits:0})};[e,h,c].forEach(x=>x.oninput=calc);calc();}
- const dock=d.querySelector('.contact-dock');dock?.querySelector('.contact-dock-toggle')?.addEventListener('click',()=>dock.classList.toggle('open'));
 })();
